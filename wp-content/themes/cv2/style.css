@@ -24,6 +24,7 @@ ul li {
     display: flex;
     padding: 1em;
     text-align: justify;
+    min-height: 600px;
 }
 
 aside {
@@ -48,4 +49,13 @@ footer {
 
 footer ul {
     font-size: 2em;
+}
+
+@media (max-width: 999px) {
+    header ul {
+        flex-direction: column;
+    }
+    aside {
+        display: none;
+    }
 }

@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
   </head>
 <body>
-
+    <!-- Pour ceux qui utlisent SASS n'oubliez pas le point d'exclamation pour garder vos commentaires: /*! Sinon SASS mangent vos commentaires et Wordpress ne verra pas votre thème... -->
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="<?php echo get_page_link(36) ?> ">Competence</a></li>
-                <li><a href="#formation">Formation</a></li>
-                <li><a href="#loisirs">loisirs</a></li>
+                <li><a href="<?php echo get_page_link(36) ?> " >Competence</a></li>
+                <li><a href="<?php echo get_page_link(38) ?>">Formation</a></li>
+                <li><a href="<?php echo get_page_link(40) ?>">loisirs</a></li>
             </ul>
         </nav>
     </header>

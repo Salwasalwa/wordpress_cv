@@ -1,5 +1,5 @@
 <?php
-    /*template name: competence*/
+    /*template name: loisirs_tem*/
 ?>
 <?php
 get_header();
@@ -11,9 +11,9 @@ get_header();
     ?>
     <main>
 
-        <h2 id="competence">Competence</h2>
+        <h2>Loisirs</h2>
         <?php
-        $args = array('category_name' => "Competence" );
+        $args = array('category_name' => "Loisirs" );
         $posts = get_posts($args);
         get_template_part( 'template-parts/content_loop_post');
         ?>

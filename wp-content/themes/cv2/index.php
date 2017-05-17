@@ -9,26 +9,16 @@ get_header();
     <main>
 
 
-        <h2 id="competence">Competence</h2>
-        <?php
-        $args = array('category_name' => "Competence" );
-        $posts = get_posts($args);
-        get_template_part( 'template-parts/content_loop_post');
-        ?>
-        <h2 id="formation">Formation</h2>
-        <?php
-        $args = array('category_name' => "Formation" );
-        $posts = get_posts($args);
-        get_template_part( 'template-parts/content_loop_post');
-        ?>
-
-        <h2 id="loisirs">Loisirs</h2>
-        <?php
-
-        $args = array('category_name' => "Loisirs" );
-        $posts = get_posts($args);
-        get_template_part( 'template-parts/content_loop_post');
-        ?>
+        <section>
+            <h3 id="presentation">Présentation</h3>
+            <ul>
+                <li><label>Nom: </label> Oudadsi</li>
+                <li><label>Prenom: </label> Salwa</li>
+                <li><label>Date de naissance: </label>Né le 1 janvier 1990</li>
+                <li><label class="email">Email: </label> salwaoudad@gmail.com</li>
+                <li class="address"><label>Coordonnées GPS: </label> 48000 Mende, France Latitude : 44.517611 | Longitude : 3.501873</li>
+            </ul>
+        </section>
     </main>
 </div>
 <?php
